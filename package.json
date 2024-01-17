@@ -1,7 +1,9 @@
 {
-  "name": "my-component-library",
-  "version": "0.1.0",
-  "private": true,
+  "name": "cst-component-library",
+  "version": "0.7.0",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,9 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "tsc && rollup -c"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "rollup": "^2.79.1",
+    "rollup-plugin-typescript2": "^0.36.0"
   }
 }
