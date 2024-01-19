@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/agoodbook/component-library/static/js/main.03f3d6ab.js",
-    "index.html": "/agoodbook/component-library/index.html",
-    "main.03f3d6ab.js.map": "/agoodbook/component-library/static/js/main.03f3d6ab.js.map"
+    "main.js": "/component-library/static/js/main.c26ad1bf.js",
+    "index.html": "/component-library/index.html",
+    "main.c26ad1bf.js.map": "/component-library/static/js/main.c26ad1bf.js.map"
   },
   "entrypoints": [
-    "static/js/main.03f3d6ab.js"
+    "static/js/main.c26ad1bf.js"
   ]
 }
