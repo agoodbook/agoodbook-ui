@@ -17,6 +17,11 @@
     "declarationDir": "./dist/types",
     "noEmit": true,
     "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@components/*": ["components/*"]
+    }
   },
   "include": ["components"]
 }

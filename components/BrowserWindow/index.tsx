@@ -4,7 +4,11 @@ import "./index.css";
 /**
  * 模仿浏览器窗口组件
  */
-const BrowserWindow = (props: any) => {
+interface Props {
+  children: any;
+}
+
+const BrowserWindow: React.FC<Props> = ({ children }) => {
   return (
     <div className="browser-window-container">
       <div className="row">
@@ -25,7 +29,7 @@ const BrowserWindow = (props: any) => {
         </div>
       </div>
 
-      <div className="content">{props.children}</div>
+      <div className="content">{children}</div>
     </div>
   );
 };
