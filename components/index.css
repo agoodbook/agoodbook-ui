@@ -1,0 +1,15 @@
+:root {
+  --browser-window-bg: #ebedf0;
+  --browser-window-link-bg: #ffffff;
+  --browser-window-color: #000;
+  --table-radius: 5px;
+  --table-border-color: #f7f7f7;
+  --ifm-color-primary: blue;
+}
+
+[data-theme="dark"] {
+  --browser-window-bg: #444950;
+  --browser-window-link-bg: #1b1b1d;
+  --browser-window-color: #fff;
+  --table-border-color: #606770;
+}

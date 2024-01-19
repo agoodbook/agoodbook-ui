@@ -1,3 +1,0 @@
-// index.tsx
-export { default as Button } from './components/Button/Button';
-// 导出其他组件...

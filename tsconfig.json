@@ -15,8 +15,8 @@
     "isolatedModules": true,
     "declaration": true,
     "declarationDir": "./dist/types",
-    "noEmit": false,
+    "noEmit": true,
     "jsx": "react",
   },
-  "include": ["src"]
+  "include": ["components"]
 }

@@ -1,0 +1,74 @@
+.browser-window-container {
+  border: 3px solid var(--browser-window-bg);
+  border-radius: 10px;
+}
+
+.browser-window-container .row {
+  padding: 5px 10px;
+  background: var(--browser-window-bg);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.browser-window-container .row .left {
+  min-width: 40px;
+  white-space: nowrap;
+}
+
+.browser-window-container .row .right {
+  min-width: 25px;
+}
+
+.browser-window-container .row .middle {
+  flex: 1;
+  min-width: 50px;
+  margin: 0 10px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.browser-window-container .row .middle input {
+  height: 30px;
+}
+
+.browser-window-container .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.browser-window-container .dot {
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.browser-window-container input[type="text"] {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color: var(--browser-window-link-bg);
+  margin-top: -8px;
+  height: 30px;
+  color: var(--browser-window-color);
+  padding-left: 15px;
+}
+
+.browser-window-container .bar {
+  width: 17px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
+}
+
+.browser-window-container .content {
+  padding: 10px;
+  min-height: 80px;
+}
