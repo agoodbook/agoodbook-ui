@@ -3,7 +3,7 @@
   "version": "0.7.0",
   "main": "components/index.tsx",
   "types": "./dist/index.d.ts",
-  "homepage": "https://github.com/agoodbook/component-library",
+  "homepage": "https://agoodbook.github.io/component-library",
   "private": false,
   "dependencies": {
     "@rollup/plugin-babel": "^6.0.4",
