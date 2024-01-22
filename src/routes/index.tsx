@@ -1,8 +1,8 @@
-import Overview from "../pages/Overview";
-import BrowserWindow from "../pages/BrowserWindow";
-import DocTable from "../pages/DocTable";
+import BrowserWindowPage from "../pages/BrowserWindowPage";
+import DocTablePage from "../pages/DocTablePage";
 import React from "react";
 import CustomLayout from "../layout";
+import OverviewPage from "../pages/OverviewPage";
 
 const routes: any = [
   {
@@ -11,21 +11,21 @@ const routes: any = [
     children: [
       {
         path: "",
-        element: <Overview />,
+        element: <OverviewPage />,
         meta: {
           title: "组件总览",
         },
       },
       {
         path: "browser-window",
-        element: <BrowserWindow />,
+        element: <BrowserWindowPage />,
         meta: {
           title: "浏览器窗口",
         },
       },
       {
         path: "table",
-        element: <DocTable />,
+        element: <DocTablePage />,
         meta: {
           title: "表格",
         },

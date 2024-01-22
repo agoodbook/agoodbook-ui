@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
-import { Breadcrumb, Layout, Menu, theme } from "antd";
-import LogoSvg from "../assets/icons/logo.svg";
+import {  Layout, theme } from "antd";
+import LogoSvg from "src/assets/icons/logo.svg";
 import styles from "./index.module.css";
 import { Outlet } from "react-router-dom";
 import CustomMenu from "./Menu";
@@ -15,7 +15,7 @@ const App: React.FC = () => {
 
   return (
     <Layout style={{ height: "100vh" }}>
-      <Header style={{ display: "flex", alignItems: "center" }}>
+      <Header style={{ display: "flex", alignItems: "center", backgroundColor: "var(--primary-200)"}}>
         <div className={styles.logo}>
           <img src={LogoSvg} alt="logo" width={50} />
           <div className={styles["logo-text"]}>Components</div>
